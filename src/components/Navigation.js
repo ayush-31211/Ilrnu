@@ -26,7 +26,7 @@ function Navigation(prop) {
       
       <div className="flex items-center justify-end md:flex-1 lg:w-0">
         
-        <span onClick={chanceFlag} className="text-white text-base border-2 rounded-2xl py-2 px-4 cursor-pointer">Join as a Tutor</span>
+        <span onClick={chanceFlag} className="text-white text-base border-2 rounded-2xl py-2 px-4 cursor-pointer">Join as a Tutr</span>
         <Menu flag={flag} setFlag={setFlag} setLogin={setLoginUtil} />
         {(prop.user)?<User/>:<img className="ml-4" src={Avatar} alt="User"/>}
       </div>
